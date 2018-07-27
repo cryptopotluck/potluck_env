@@ -1,0 +1,21 @@
+/**
+ * Dashkit v1.0.0
+ */
+
+// Bootstrap setup
+@import '../../../node_modules/bootstrap/scss/functions';
+
+// Dashkit setup
+@import 'dashkit/variables';
+
+// Custom setup
+@import 'user-variables';
+
+// Bootstrap core
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+// Dashkit core
+@import 'dashkit/dashkit';
+
+// Custom core
+@import 'user';
